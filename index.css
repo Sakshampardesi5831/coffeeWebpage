@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1516036213144-bcac9086b5a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1195&q=80);
+    background-size: cover;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    background-color: rgba(52, 3, 3, 0.495);
+}
+#leftnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 50%;
+}
+#centrenav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    height: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#rightnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 50%;
+}
+#hero{
+    position: relative;
+    width: 100%;
+    height: 80%; 
+    background-color: rgba(52, 3, 3, 0.495);
+}
+#beansphoto{
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    right: 20%;
+    top: 30%;
+    background-image: url(beans-removebg-preview.png);
+    background-size: cover;
+}
+#text{
+    position: relative;
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    left: 10%;
+    top: 30%;
+}
+#small{
+    position: absolute;
+    display:flex;
+    width: 30%;
+    height: 10%;
+    color: white;
+    top: 5%;
+    padding-left: 20px;
+}
+#big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 80%;
+    height: 45%;
+    color: white;
+    font-size: 25px;
+    top: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#circle{
+    position: relative;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: rgba(255, 255, 255, 0.482);
+    border-radius: 50%;
+    bottom: 0;
+    left: 10px;
+    
+}
+#innercircle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#dot{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#bottomtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 40%;
+    height: 10%;
+    bottom: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 5%;
+    height: 40%;
+    color: white;
+    left: 65%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#main2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:white;
+}
+#leftphoto{
+    position: absolute;
+    width: 35%;
+    height: 50%;
+    background-color: black;
+    bottom: 0;
+    left: 15%;
+    background-image: url(https://images.unsplash.com/photo-1464979681340-bdd28a61699e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fGNvZmZlZSUyMHNlcnZpbmd8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#rightpara{
+    position: absolute;
+    width: 35%;
+    height: 50%;
+    background-color: white;
+    right: 10%;
+    bottom: 0;
+}
+#rightpara>p{
+    padding-top: 20%;
+    padding-left: 5%;
+}
+#uppercontent{
+    position: absolute;
+    width: 70%;
+    height: 25%;
+    left: 20%;
+    top: 20%;
+}
+
+#main2small{
+  width: 15%;
+  height: 20%;
+  background-color: black;
+  color: white;
+}
+#main2text{
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    padding-left: 20px;
+    top: 40%;
+    left: 25%;
+    font-size: 24px;
+}
+#colourcircle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: orangered;
+    border-radius: 50%;
+    top: 40%;
+    left: 0;
+    padding-left: 10px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top: 65%;
+    left: 5%;
+    font-size: 22px;
+    border-style: solid;
+    border-color:black ;
+}
+#cright{
+    width: 30%;
+    height: 50%;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    background-image: url(https://images.unsplash.com/photo-1592760702915-d0b2847f22c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGxlYWYlMjBiYWNrZ3JvdW5kfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#bleft{
+    width: 20%;
+    height: 30%;
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1633524791878-ea3fc1aa7434?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzl8fGxlYWZ8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+#Lbottom{
+    position: absolute;
+    width: 15%;
+    height: 25%;
+    background-color: black;
+    bottom: 0;
+    background-image: url(https://images.unsplash.com/photo-1569785045857-bdadd20eaf4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODZ8fGxlYWZ8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;  
+}
+#Rbottom{
+    position: absolute;
+    width: 15%;
+    height: 20%;
+    background-color: black;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://images.unsplash.com/photo-1536882240095-0379873feb4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGxlYWYlMjBiYWNrZ3JvdW5kfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+
+}
+#rightnav:hover{
+    background-color: rgba(0, 0, 0, 0.877);
+}
+#button:hover{
+    background-color:rgba(0, 255, 255, 0.564);
+}
+
+
+
